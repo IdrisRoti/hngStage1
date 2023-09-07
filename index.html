@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="image">
+                <img data-testid="slackDisplayImage" 
+                src="https://ca.slack-edge.com/T05FFAA91JP-U05R94NFRM1-8ad84c6daae8-512" alt="Idris Roti">
+            </div>
+            <div class="details">
+                <h2 class="name" data-testid="slackUserName">Idris Roti</h2>
+                <h3 class="track" data-testid="myTrack">Front-End Track</h3>
+                <div class="repo-link">
+                    <span class="repo">GitHub repository:</span>
+                    <a data-testid="githubURL" href="#">githubrepo</a>
+                </div>
+                <div class="date">
+                    <div class="day" data-testid="currentDayOfTheWeek"></div>
+                    <div class="time" data-testid="currentUTCTime"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
